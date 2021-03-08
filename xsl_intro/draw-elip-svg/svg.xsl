@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs"
-    version="2.0">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
    <xsl:template match="/">
+   <html>
        <head> <br> <strong> Draw elip - Trinh Quoc Bao</strong> </br></head>
        <body>
-           <xsl:apply-templates></xsl:apply-templates>
-       </body>
-   </xsl:template>
-    
-    
-    <xsl:template match="root">
+          
+		   <xsl:template match="root">
         <xsl:apply-templates>
         </xsl:apply-templates>
     </xsl:template>
@@ -54,10 +48,16 @@
                 
             </xsl:for-each>
             </svg>
-        </g>
+        </g>       
         
-        
-    </xsl:template>
+    </xsl:template>	  	  
+		  
+       </body>
+	</html>
+   </xsl:template>
+    
+    
+   
     
     
 </xsl:stylesheet>
