@@ -1,0 +1,6 @@
+version: "3.9"  # optional since v1.27.0
+volumes:    
+      - v  C:\\Program Files (x86)\\Google\\Chrome\\Application:/opt/chrome
+
+
+  
