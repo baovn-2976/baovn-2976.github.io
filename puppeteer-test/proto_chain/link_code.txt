@@ -1,3 +1,0 @@
-link access webpage load code node.js
-
-https://repl.it/@BaoVn/prototype#index.js
