@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-headless",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/puppeteer": "^2.1.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chrome-launcher": "^0.13.4",
+    "image-downloader": "^4.0.2",
+    "puppeteer": "^2.1.1"
+  }
+}
